@@ -6,7 +6,7 @@ $(function(){
     // libs/test/test011.json
     // libs/geo/geo011.json
     $.ajax({
-        url: "libs/test/test021.json",
+        url: "libs/test/test042.json",
         type: "GET",
         dataType: "JSON",
         success: function (data) {
@@ -23,7 +23,7 @@ $(function(){
     });
     let geoCoordMap=new Object();
     $.ajax({
-        url: "libs/geo/geo021.json",
+        url: "libs/geo/geo042.json",
         type: "GET",
         dataType: "JSON",
         success: function (data) {

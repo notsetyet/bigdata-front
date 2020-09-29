@@ -1,1 +1,17 @@
-{"//home/buaa/.cache":"application/vnd.glyptodon.guacamole.stream-index+json","//home/buaa/id_rsa.pub":"application/octet-stream","//home/buaa/geo812.json":"application/octet-stream","//home/buaa/.bash_history":"application/octet-stream","//home/buaa/geo811.json":"application/octet-stream","//home/buaa/geo021.json":"application/octet-stream","//home/buaa/hadoop.master.tar.gz":"application/octet-stream","//home/buaa/.bash_logout":"application/octet-stream","//home/buaa/geo":"application/vnd.glyptodon.guacamole.stream-index+json","//home/buaa/test":"application/vnd.glyptodon.guacamole.stream-index+json","//home/buaa/test811.json":"application/octet-stream","//home/buaa/.sudo_as_admin_successful":"application/octet-stream","//home/buaa/geo011.json":"application/octet-stream","//home/buaa/result021":"application/octet-stream","//home/buaa/result":"application/vnd.glyptodon.guacamole.stream-index+json","//home/buaa/hbase.master.tar.gz":"application/octet-stream","//home/buaa/.profile":"application/octet-stream","//home/buaa/test812.json":"application/octet-stream","//home/buaa/result812":"application/octet-stream","//home/buaa/result823":"application/octet-stream","//home/buaa/.ssh":"application/vnd.glyptodon.guacamole.stream-index+json","//home/buaa/test021.json":"application/octet-stream","//home/buaa/result821":"application/octet-stream","//home/buaa/.viminfo":"application/octet-stream","//home/buaa/result822":"application/octet-stream","//home/buaa/test011.json":"application/octet-stream","//home/buaa/result070.json":"application/octet-stream","//home/buaa/.bashrc":"application/octet-stream"}
+{
+ "1": [108.94442,34.225285],
+ "2": [108.93618,34.277782],
+ "3": [108.93981,34.20869],
+ "4": [108.91558,34.234837],
+ "5": [108.99474,34.27165],
+ "6": [108.96492,34.214615],
+ "7": [108.95616,34.239986],
+ "8": [108.93337,34.246483],
+ "9": [108.9681,34.274834],
+ "10": [108.971085,34.25695],
+ "11": [108.91582,34.259457],
+ "12": [108.948135,34.25958],
+ "13": [108.994,34.24526],
+ "14": [108.916145,34.21483],
+ "15": [108.988815,34.2166]
+}
