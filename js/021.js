@@ -1,10 +1,15 @@
 $(function(){
+	var map = new AMap.Map('container',{
+		zoom: 10,  //设置地图显示的缩放级别
+		mapStyle: 'amap://styles/whitesmoke',
+		center: [108.965294,34.265343],//设置地图中心点坐标
+		// layers: [new AMap.TileLayer.Satellite()],  //设置图层,可设置成包含一个或多个图层的数组
+		mapStyle: 'amap://styles/whitesmoke',  //设置地图的显示样式
+		viewMode: '2D',  //设置地图模式
+		lang:'zh_cn',  //设置地图语言类型
+	});
 	let myCharts = echarts.init(document.getElementById('cityMap'));
 	let sanData = [];
-	// libs/echarts/test.json
-	// libs/echarts/geo.json
-	// libs/test/test011.json
-	// libs/geo/geo011.json
 	$.ajax({
 		url: "libs/test/test021.json",
 		type: "GET",
@@ -31,7 +36,7 @@ $(function(){
 			geoCoordMap=obj;
 		}
 	});
-	$.get('./libs/echarts/xian-full.json',function(data){
+	$.get(map,function(data){
 		echarts.registerMap('xian', data, {});
 		var mapData=[];
 
